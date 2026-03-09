@@ -13,7 +13,6 @@ body {
 .wrapper {
   width: 100%;
   background-color: #f4f4f4;
-  padding: 20px 0;
 }
 
 .container {
@@ -227,4 +226,61 @@ body {
 .insp-item img {
   width: 100%;
   display: block;
+}
+
+/** HOTSPOT **/
+
+.hotspot {
+  padding: 40px 30px;
+  background-color: #2D2D2F;
+  color: #ffffff;
+}
+
+.hotspot-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hotsImg {
+  margin: auto;
+  width: 90%;
+  height: 225px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.hotsDate {
+  font-size: 18px;
+  font-family: Arial;
+  margin: 0;
+}
+.hotsTitle {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.hotsContent {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  font-family: Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 20px 20px 30px 0;
+}
+
+.hotsButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial;
+  padding: 12px 25px;
+  font-family: Arial;
 }
