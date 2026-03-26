@@ -272,3 +272,9 @@ table {
     width: 120px;
   }
 }
+@media (max-width: 425px) {
+  .gal-images img {
+    height: 115px;
+    width: 115px;
+  }
+}

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+td{
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.section-title {
+  font-family: Georgia;
+  font-size: 40px;
+  color: #2d2d2f;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  background-color: #D5EADA;
+  width: 600px;
+  padding: 30px;
+}
+
+
+/* Header */
+.header {
+}
+
+.header-table {
+  width: 100%;
+}
+
+.nav {
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+}
+.nav-left {
+text-align: left;
+}
+.nav-right {
+  text-align: right;
+}
+
+.nav-logo-wrap {
+  width: 110px;
+  height: auto;
+}
+.nav-logo {
+  width: 100%;
+}
