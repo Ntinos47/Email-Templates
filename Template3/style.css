@@ -22,12 +22,13 @@ td{
 .container {
   background-color: #D5EADA;
   width: 600px;
-  padding: 30px;
+  padding: 0 30px;
 }
 
 
 /* Header */
 .header {
+  padding: 30px 0;
 }
 
 .header-table {
@@ -52,4 +53,72 @@ text-align: left;
 }
 .nav-logo {
   width: 100%;
+}
+
+/* Container Table */
+.wrap-hero-img {
+  width: 100%;
+  height: 688px;
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: 688px;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+.hero-content {
+  width: 100%;
+  height: 688px;
+  /* This ensures the table sits directly on top of the img */
+}
+
+/* Using your hero-text class for font styles */
+.hero-text {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  padding: 30px;
+}
+
+.hero-text span {
+  color: #E398EA
+}
+
+p.hero-text {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+
+/* Live Title-Section */
+
+.wrap-sec-title {
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+.section-title {
+  text-align: center;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  font-size: 145px;
+  font-family: Big Shoulders;
+  color: #E398EA;
 }
