@@ -244,3 +244,23 @@ text-align: right;
   width: 600px;
   padding: 0px 30px;
 }
+
+.textFol {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Lexend;
+  color: #688B78;
+  padding-bottom: 20px;
+}
+
+.wrapGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.itemGrid {
+  width: 122px;
+  height: 122px;
+  object-fit: cover;
+  padding: 5px;
+}
