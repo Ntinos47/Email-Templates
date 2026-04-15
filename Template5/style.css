@@ -256,8 +256,19 @@ p {
   padding: 40px 30px;
 }
 
+.bigText {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  line-height: 1.1;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 36px;
+  width: 76%;
+}
+
 .wrapPiks {
   text-align: center;
+  position: relative;
 }
 .img8 {
   width: 536px;
@@ -266,4 +277,72 @@ p {
   position: relative;
 }
 
+.wrapPiksText {
+  text-align: start;
+  position: relative;
+  bottom: 200px;
+  left: 50px;
+  z-index: 2;
+}
 
+
+/* Cards */
+
+.containerCards {
+  background-color: #002333;
+  width: 600px;
+  padding: 0 30px;
+  position: relative;
+  top: -80px;
+}
+
+.wrapimg9, .wrapimg10 {
+  width: 268px;
+  height: 236px;
+  padding-bottom: 30px;
+}
+.img9 {
+  width: 268px;
+  height: 236px;
+  object-fit: cover;
+  padding-left: 30px;
+}
+.img10 {
+  width: 268px;
+  height: 236px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+.wrapTextImg {
+  padding: 0 30px;
+}
+
+
+.catCard {
+  color: #00FF83;
+  font-family: Arial, sans-serif;
+  font-size: 14px; 
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.bigTextCard {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-bottom: 15px;
+  font-size: 26px;
+}
+.smallCard {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.parentText {
+  display: block;
+}
