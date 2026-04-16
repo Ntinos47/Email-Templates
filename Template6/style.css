@@ -1,38 +1,129 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
 }
 
-table {
-  border-collapse: collapse;
+.main-bg {
+  background: #cfcfc0;
+  width: 600px;
 }
 
-td {
-  margin: 0;
-  padding: 0;
+.side-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 50% 50px;
+  overflow: hidden;
+  width: 100%;
+  height: 420px;
+}
+
+.top-left {
+  padding: 20px;
+}
+
+.top-right {
+  padding: 20px;
+  color: white;
+}
+
+.title {
+  padding: 20px 20px 10px 20px;
+  color: white;
+}
+
+.cta-cell {
+  padding: 20px;
+}
+
+.cta-text {
+  color: white;
+}
+
+.circle-cell {
+  padding-left: 100px;
+  text-align: end;
+}
+
+.circle {
+  border-radius: 60px;
+}
+
+.circle-text {
+  color: white;
+  font-size: 12px;
 }
 
 p {
   margin: 0;
 }
-
-.wrapper {
-  width: 100%;
+.wrapDis {
+  text-align: center;
+}
+.disText {
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+}
+.disPer {
+  color: #ff9a3c;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial;
+  line-height: 30px;
 }
 
 
-.containerHero {
-  background-color: #dbdcca;
+.desc {
+  padding: 20px 30px;
+  color: #2e3d3b;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn-wrap {
+  padding-bottom: 30px;
+}
+
+.btn-text {
+  color: white;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #c47b3a;
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+.btnText {
+  text-decoration: 0;
+  color: white;
+  font-family: Arial;
+}
+
+/* Places */
+.contBg{
   width: 600px;
+  background-color: #EEEFEA;
 }
 
 
-.logo {
-  width: 166px;
-  height: auto;
+.wrapPacestitle {
+  color: #083B3D;
+  font-family: Arial;
+  padding: 50px 0 30px 0;
 }
-.img1 {
-  width: 600px;
-  padding: 0 30px;
+.upperTitle {
+  font-size: 16px;
+}
+.placesTitle {
+  font-weight: bold;
+  font-size: 50px;
+}
+.downTitle {
+  font-size: 16px;
 }
