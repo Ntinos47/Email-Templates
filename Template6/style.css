@@ -63,6 +63,8 @@ p {
 }
 .wrapDis {
   text-align: center;
+  border: 8px solid #cfcfc0;
+  border-radius: 57px;
 }
 .disText {
   color: white;
