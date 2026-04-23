@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+td{
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  background-color: #f2fbf6;
+  width: 600px;
+  height: 346px;
+  object-fit: cover;
+}
+
+
+/* Hero Section */
+
+.wrapImg1 {
+  width: 100%;
+
+}
+.img1 {
+  width: 600px;
+  height: auto;
+}
+
+.wrapTitle {
+  padding: 40px;
+  font-size: 50px;
+  color: #22453B;
+  line-height: 45px;
+}
+
+.wrapLogo {
+  display: block;
+  padding: 50px 30px;
+}
+.heroLogo {
+  width: 130px;
+  height: auto;
+}

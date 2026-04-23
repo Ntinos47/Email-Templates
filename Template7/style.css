@@ -22,7 +22,7 @@ p {
 }
 
 .side-padding {
-  padding: 5px 30px;
+  padding: 5px 20px;
   width: 600px;
 }
 
@@ -221,7 +221,7 @@ p {
   padding: 10px 0;
 }
 
-.wrapSectionThree {
+.wrapSectionTwo {
   width: 100%;
   background-color: #FF6C6C26;
   border-radius: 20px;
@@ -270,4 +270,75 @@ p {
   border: 2px solid #FF6C87;
   border-radius: 50px;
   padding: 10px 20px;
+}
+
+/* Fourth Section */
+
+.parentSecFour {
+  padding: 10px 0;
+  width: 100%;
+}
+
+
+.img4 {
+  width: 580px;
+  height: 297px;
+  object-fit: contain;
+}
+
+.wrapSectionTwo {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Image Styling */
+.wrapImg4 {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.img4 {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.wrapFooterCon {
+  padding-left: 40px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.footerTitle {
+  font-family: Anton; 
+  font-size: 40px;
+  line-height: 1.1;
+  color: #2e1a47;
+  text-transform: uppercase;
+}
+
+.footerCon {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #4a3b5d;
+  line-height: 1.4;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  background-color: #ff748c;       /* Pink/Coral button color */
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 50px;             /* Capsule shape */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff5a75;
 }
