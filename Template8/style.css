@@ -48,3 +48,167 @@ p {
   width: 130px;
   height: auto;
 }
+
+
+/* Schedule */
+
+.wrapDates {
+  padding-bottom: 30px;
+}
+
+.wrapHeader {
+  width: 100%;
+  text-align: center;
+  padding: 0 30px;
+}
+.headerTitle {
+  font-family: Arial;
+  font-size: 28px;
+  color: #22453B;
+  padding: 30px 0 10px 0;
+}
+.headerText {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.headerSubitle {
+  font-family: Arial;
+  font-size: 30px;
+  color: #22453B;
+  padding: 30px 0 0 0;
+}
+
+
+.headerSubitle {
+  text-align: center;
+}
+
+.wrapSchedule {
+  width: 100%;
+  text-align: center;
+  font-family: Arial;
+}
+.dates {
+  font-size: 28px;
+  color: #22453B;
+  padding: 30px 0 0 0;
+}
+.month {
+  font-size: 14x;
+  padding-bottom: 10px;
+}
+.activity {
+  color: #22453B;
+  font-size: 14px;
+}
+.time {
+  font-size: 14px;
+}
+
+
+/* Blue Sec */
+.wrapTotalBlue {
+  background-color: #002433;
+  width: 100%;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.wrapSecTitle {
+  width: 100%;
+  font-family: Arial;
+  font-size: 30px;
+  padding: 40px 30px 10px 30px;
+}
+.wrapBlueSecImg {
+  width: 244px;
+  height: 145px;
+}
+.BlueSecImg  {
+  width: 244px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 14%;
+  padding: 15px 30px;
+}
+
+.wrapBlueSecText {
+  padding: 15px 30px;
+  display: block;
+}
+.blueSecTextTitle {
+  font-size: 22px;
+}
+.blueSecText {
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+/* Tips */
+
+.wrapTips {
+  width: 100%;
+  padding: 30px;
+  font-family: arial;
+}
+
+.tipTitle {
+  font-size: 30px;
+  color: #22453B;
+  padding: 0 30px 30px 0;
+}
+
+
+.logos {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.tipsSubtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #22453B;
+  padding: 5px 0;
+}
+.tipsText {
+  font-size: 16px;
+  padding: 10px 0;
+  width: 80%;
+}
+
+
+/* Message */
+
+.wrapMessages {
+  width: 100%;
+  background-color: #002433;
+}
+
+.img4 {
+  width: 242px;
+  height: 318px;
+  object-fit: fill;
+}
+
+.parentWrapMessage {
+  display: block;
+  padding: 30px;
+}
+.wrapMessageText {
+  color: white;
+  font-family: arial;
+}
+.messageTitle {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.messageCon {
+  font-size: 18px;
+  opacity: 50%;
+  padding-bottom: 10px;
+}
+.author {
+  color: #d3dcc4;
+  font-size: 18px;
+}
