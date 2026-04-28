@@ -66,8 +66,8 @@ p {
   color: #F0F7E7;
 }
 
-/* Hero Image */
 
+/* Hero Image */
 .container4 {
   width: 600px;
 }
@@ -88,11 +88,39 @@ p {
   text-align: center;
 }
 .img1 {
-  text-align: center;
+  display: block;
   width: 420px;
   height: 434px;
-  position: relative;
-  top: -434px;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+
+  margin: -434px auto 0 auto;
+
+  border-top-left-radius: 210px;
+  border-top-right-radius: 210px;
+
+  object-fit: cover;
+}
+.wrapHeroImage {
+  width: 100%;
+}
+
+
+/* Gifts */
+.container5 {
+  width: 600px;
+  text-align: center;
+  padding: 30px;
+}
+
+.wrapGiftContent {
+  width: 100%;
+  text-align: center;
+}
+.giftTitle {
+  width: 80%;
+}
+.giftText {
+  text-align: start;
+  font-size: 16px;
+  font-family: arial;
+  width: 90%;
 }
