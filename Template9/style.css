@@ -12,6 +12,7 @@ p {
 
 .wrapper {
   width: 100%;
+  background-color: aliceblue;
 }
 
 .container {
@@ -80,7 +81,7 @@ p {
   background-color: #14372F;
 }
 .halfBottom {
-  background-color: rgb(255, 0, 0);
+  background-color: white;
 }
 
 .wrapImg1 {
@@ -107,20 +108,124 @@ p {
 /* Gifts */
 .container5 {
   width: 600px;
-  text-align: center;
-  padding: 30px;
+  padding: 40px 40px 50px 40px;
+  background-color: white;
 }
 
 .wrapGiftContent {
   width: 100%;
-  text-align: center;
 }
 .giftTitle {
   width: 80%;
+  position: relative;
+  left: 10%;
+  font-size: 40px;
+  text-align: start;
+  font-weight: bold;
 }
 .giftText {
   text-align: start;
-  font-size: 16px;
   font-family: arial;
-  width: 90%;
+  padding: 40px 10px;
+  font-size: 20px;
+  font-family: Arial;
+  line-height: 30px;
+}
+span {
+  color: #3E8F24;
+}
+.giftShopBtn {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+
+/* Cards */
+.container6 {
+  width: 600px;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+}
+.img2 {
+  width: 100%;
+  height: 381px;
+  object-fit: cover;
+}
+
+.wrapCard {
+  padding: 40px;
+  background-color: #F0F7E7;
+  border-radius: 0 70px 0 0;
+}
+.wrapCard2 {
+  padding: 40px;
+  background-color: #FEE5E8;
+  border-radius: 0 0 0 70px;
+}
+
+.wrapImg {
+  line-height: 0;
+  width: 296px;
+}
+
+.cardTitle {
+  font-size: 30px;
+}
+.cardText {
+  font-size: 16px;
+  font-family: Arial;
+  padding: 20px 0 30px 0;
+}
+.cardBtn {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+
+.img3 {
+  width: 100%;
+  height: 381px;
+  object-fit: cover;
+}
+
+
+/* Footter */
+.container7 {
+  width: 600px;
+  padding: 40px 0;
+  background-color: #248F51;
+  text-align: center;
+  color: white;
+}
+.ftTitle {
+  font-size: 40px;
+  margin: 0;
+}
+.ftText {
+  font-size: 16px;
+  font-family: Arial;
+  padding: 15px 0 20px 0;
+  margin: 0;
+}
+.ftBtn {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
 }
