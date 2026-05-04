@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+td{
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+
+/* LOGO */
+.container {
+  background-color: #4A30CF1A;
+  width: 600px;
+  padding: 0 30px;
+}
+.wrapLogo {
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  width: 164px;
+  height: 44px;
+  object-fit: cover;
+  padding: 30px 0;
+}
+
+
+/* Hero */
+.container1 {
+  background-image: linear-gradient(#E4E1F7,#FFFFFF);
+  width: 600px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.centerParty {
+  padding: 30px 0;
+}
+.wrapParty {
+  display: inline;
+}
+.wrapPartyImg {
+  width: 104px;
+  height: 104px;
+  border-radius: 60px;
+  background-color: #DDD6FD;
+}
+.party {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.wrapHeroText {
+  text-align: center;
+  font-family: Arial;
+  color: #2D2D2F;
+}
+.heroTitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+.heroText {
+  font-size: 16px;
+  padding: 10px 0 40px 0;
+}
+
+.img1 {
+  width: 536px;
+  height: 325px;
+  border-radius: 20px;
+}
+
+
+/* Sub Section */
+.wrapTySec {
+  text-align: center;
+  font-family: Arial;
+  color: #2D2D2F;
+}
+.subTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+.subText {
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+/* Contact Section */
+.wrapContact {
+  font-family: Arial;
+}
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.spacer {
+  width: 100%;
+}
+
+.wrapConInfo {
+  border-bottom: 1px solid #D6D6D6;
+  font-family: Arial;
+}
+.conTitle {
+  font-size: 18px;
+  padding: 20px 0 5px 0;
+}
+.conText {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4A30CF;
+  padding-bottom: 10px;
+}
+
+.wrapConInfo1 {
+  padding: 60px;
+}
+
+.signBtn {
+  text-decoration: none;
+  background-color: #4A30CF;
+  color: white;
+  padding: 15px 60px;
+  border-radius: 30px;
+}
+
+
+/* CARD */
+.container2 {
+  width: 600px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.centerPro {
+  padding: 30px 0;
+}
+.wrapPro {
+  width: 100%;
+  display: inline;
+}
+.wrapProImg {
+  width: 104px;
+  height: 104px;
+  border-radius: 60px;
+  background-color: #DDD6FD;
+}
+.pro {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.wrapCard {
+  width: 100%;
+}
