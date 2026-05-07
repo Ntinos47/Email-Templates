@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+td{
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: Arial;
+}
+
+
+/* LOGO */
+.container {
+  background-color: #EBEADE;
+  width: 600px;
+  padding: 30px;
+}
+.logo {
+  width: 125px;
+  height: 23px;
+  object-fit: cover;
+}
+
+.navSec {
+  text-align: right;
+  width: 100%;
+}
+.navCat {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+
+/* Section 1 */
+.container1 {
+  background-color: #EBEADE;
+  width: 600px;
+}
+.heroSection {
+  padding: 30px;
+}
+.preTitle {
+  font-size: 28px;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 45px;
+}
+span {
+  color: #EB1700;
+}
+.content {
+  width: 60%;
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+.heroBtn {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 16px 40px;
+  border-radius: 60px;
+  background-color: #EB1700;
+  color: white;
+}
+.wrapHeroBtn {
+  padding: 30px;
+}
+
+.wrapHeroImg {
+  line-height: 0;
+}
+.img1 {
+  width: 100%;
+}
+
+
+/* Section 1 */
+.container2 {
+  background-color: white;
+  width: 600px;
+  padding: 40px;
+}
+.sideImgs {
+  width: 100%;
+  width: 168px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.wrapSideImgs {
+  width: 100%;
+  text-align: center;
+}
+.wrapTextCon {
+  padding: 30px;
+  text-align: center;
+}
+
+.first {
+  color: #EB1700;
+  width: 80%;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: start;
+}
+.second {
+  width: 80%;
+  display: inline-block;
+  font-size: 16px;
+  text-align: start;
+  padding: 10px 0 20px 0;
+}
+.third {
+  width: 80%;
+  display: inline-block;
+  font-size: 16px;
+  text-align: start;
+  padding: 10px 0 0 0;
+}
+
+.img5 {
+  width: 536px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Cards */
+
+.cardSectionTitle {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px 10px 20px 10px;
+}
+
+.wrapCon {
+  background-color: #F9F7E0; 
+  border-radius: 10px;
+  max-width: 168px;
+}
+
+
+.cardItem {
+  width: 160px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.imgCardItem {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  text-align: center;
+  padding: 10px;
+
+}
+.cardTitle {
+  font-weight: bold;
+  text-align: start;
+  padding: 5px 10px;
+}
+.cardText {
+  padding-bottom: 10px;
+}
