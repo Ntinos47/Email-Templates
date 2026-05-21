@@ -13,7 +13,7 @@ p {
 .wrapper {
   width: 100%;
   font-family: Arial;
-  background-color: #f0e8d6c7;
+  background-color: #f3f1ebb7;
 }
 
 /* Hero */
@@ -124,7 +124,92 @@ p {
 
 
 .container4 {
-  background-color: #E7F0EA;
+  background-color: #FFFBF2;
   width: 600px;
   padding: 0 30px 0 30px;
+  text-align: center;
+}
+.wrapSecThreeTitle {
+  padding: 30px 0 0 0;
+  background-color:#E7F0EA;
+}
+.wrapSecThree {
+  padding: 30px 0;
+  background-color:#E7F0EA;
+}
+.secTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E4B38;
+}
+.wrapImgSec {
+  text-align: center;
+  width: 100%;
+}
+.imgSec {
+  width: 130px;
+  height: 210px;
+  object-fit: cover;
+}
+.wrapSecTextFinal {
+  padding: 10px 0;
+  background-color:#E7F0EA;
+  width: 100%;
+}
+.secTextFinal {
+  width: 66%;
+  display: inline-block;
+  text-align: start;
+}
+
+.textFinal {
+  font-size: 18px;
+  color: #2E4B38;
+  line-height: 26px;
+}
+.btnFinal {
+  text-decoration: none;
+  background-color: #2E4B38;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.wrapFinalBtn {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #E7F0EA;
+  text-align: center;
+}
+.tbwrapSecbtnFinal {
+  width: 70%;
+  display: inline-block;
+  text-align: start;
+
+}
+.secbtnFinal {
+  display: inline-block;
+  text-align: start;
+}
+
+/* Footer */
+.wrapSecFooter {
+  background-color: #FFFBF2;
+  width: 600px;
+  padding: 0 30px;
+  text-align: center;
+}
+.footerTitle {
+  padding: 20px 0;
+  color: #2E4B38;
+  font-size: 60px;
+}
+.footerUnsub {
+  color: #2E4B38;
+  font-size: 14px;
+  padding: 10px 0 40px 0;
+}
+.footerLink {
+  color: #2E4B38;
+  font-weight: bold;
 }
